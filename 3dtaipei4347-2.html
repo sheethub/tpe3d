@@ -31,7 +31,7 @@ var map = new L.Map('map').setView([25.03336808477225,121.51590765996], 17); // 
 
 new L.TileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', { maxNativeZoom: 19, maxZoom: 21 }).addTo(map);
 
-$.get('geojsons-2/4347.json', function(geojson){
+$.get('geojsons/4347.json', function(geojson){
     var osmb = new OSMBuildings(map).set(geojson);
 });
 </script>

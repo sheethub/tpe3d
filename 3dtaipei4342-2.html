@@ -30,7 +30,7 @@ html, body {
 var map = new L.Map('map').setView([25.030659102852,121.57696510846], 17); // Barcelona
 new L.TileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', { maxNativeZoom: 19, maxZoom: 21 }).addTo(map);
 
-$.get('geojsons-2/4342.json', function(geojson){
+$.get('geojsons/4342.json', function(geojson){
     var osmb = new OSMBuildings(map).set(geojson);
 });
 </script>
