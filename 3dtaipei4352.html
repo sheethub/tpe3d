@@ -16,8 +16,8 @@ html, body {
   height: 100%;
 }
 </style>
-<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
 <script src="OSMBuildings-Leaflet.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
@@ -31,7 +31,7 @@ html, body {
 var map = new L.Map('map').setView([25.1013329101511,121.519546169599], 17); // Barcelona
 new L.TileLayer('http://otile1.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', { maxNativeZoom: 19, maxZoom: 21 }).addTo(map);
 
-$.get('3dtaipei4352.json', function(geojson){
+$.get('geojsons-2/4352.json', function(geojson){
     var osmb = new OSMBuildings(map).set(geojson);
 });
 </script>
