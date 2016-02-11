@@ -14,7 +14,7 @@
 檔案下載
 --------
 * [data.taipei 資料來源](http://data.taipei/opendata/datalist/datasetMeta?oid=9b7d78d2-0d73-4b42-9b29-c1640efed0eb)
-* [Dropbox 打包](https://www.dropbox.com/s/afj88qjj4gyk7y8/kmzs.zip?dl=0)
+* [Dropbox 打包](https://ronnywang-public.s3.amazonaws.com/opendata/tpe3d/kmzs.zip)
 
 授權方式
 --------
